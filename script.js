@@ -42,7 +42,7 @@ var theNumber = 0;
 
 next.addEventListener("click", function () {
     for (i = 0; i < questions.length; i++) {
-    populateQuestion(i++);
+    populateQuestion(i+1);
     }
 });
 
@@ -53,9 +53,8 @@ function populateQuestion(theNumber) {
         butC.textContent = questions[theNumber].choices[2];  
 }
 var timeEl = document.querySelector(".time");
-var mainEl = document.getElementById("main");
 
-var secondsLeft = 30;
+var secondsLeft = 45;
 
 function setTime() {
   var timerInterval = setInterval(function() {
