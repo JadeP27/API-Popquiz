@@ -18,4 +18,4 @@ No installations are required in order to access the quiz.
 
 ### Usage
 
-Unfortunately the code doesn't loop through the array, there is no timer, the score doesn't accumulate or populate, and also the prompts don't appear once a question is answered.
+Unfortunately the code doesn't loop through the array as planned.
