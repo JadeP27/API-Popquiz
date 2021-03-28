@@ -17,29 +17,30 @@
       float:right;
       background-color: yellowgreen;
     }
-    .time {
+    .timer {
       float:right;    
     }
     </style>
     <title> Javascript Popquiz </title>
 </head>
 <body>
-    <div class="card" style="width: 50rem; height: 20rem;">
+    <div class="card" style="width: 50rem; height: 25rem;">
         <div class="card-body">
           <button id="button-start" class="start">Start</button>
           <h5 class="card-title">Javascript Popquiz</h5>
           <hr style="margin-top: 20px">
           <h3 id="card-text"></h3>
-          <div>
+          <div class="questionsDiv">
           <button id="button-A" class="buttons1">choice A</button>
           <button id="button-B" class="buttons1" >choice B</button>
           <button id="button-C" class="buttons1">choice C</button>
         <div class="card-body">
           <button id="nextBtn" class="btn btn-primary btn-sm"><h1><class="btn">NEXT</h1></button>
         </div>
-        <div>
-          <input type="timer" class="time">
-        </div>
+        <div class="timer">
+            <div class="time">
+              <div id="seconds"></div>
+            </div>
       </div>
 
 
